@@ -1,0 +1,29 @@
+{
+  "name": "noom",
+  "version": "1.0.0",
+  "description": "Zoom Clone using Node.js,WebRTC and WebSockets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdcomms4227/noom.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "bugs": {
+    "url": "https://github.com/sdcomms4227/noom/issues"
+  },
+  "homepage": "https://github.com/sdcomms4227/noom#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.3"
+  },
+  "type": "module"
+}
